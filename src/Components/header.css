@@ -1,21 +1,23 @@
-video {
+.hero-container video {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    position: fixed;
+   position: absolute;
     z-index: -1;
 }
 
 .hero-container {
+position: relative;
+    /*background-image: url("https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+*/
 
-    background-image: url("https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-
-    height: 100vh;
-    width: 100%;
+    height: 84vh;
+    z-index: -1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    justify-content: center;
+    
     object-fit: contain;
     width: 90%;
     margin: 60px auto;
@@ -24,41 +26,66 @@ video {
     background-repeat: no-repeat;
 }
 
-.header-container h1 {
-    color: black;
-    padding: 0px;
-}
-
-.btn-search {
-    padding: 20px;
-    width: 50%;
-    border-radius: 20px;
-    text-align: center;
-    outline: none;
-    font-size: 20px;
-    color: #494949;
-}
-
-.btn {
-    margin-bottom: 80px;
-    margin-top: 20px;
-    background: linear-gradient(#242424, black);
-    padding: 20px;
+.hero-container h1,
+.hero-container p {
     color: white;
-    border-radius: 20px;
-    width: 170px;
-    font-size: 20px;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 19px;
+    z-index: 1;
+}
+
+h1 {
+   
+    font-family: 'Special Elite', cursive;
+    border-right: 2px solid rgba(255,255,255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+
+    
+}
+
+/*Animação do titulo*/
+
+.typing-animation {
+    animation: blinkCursor 600ms infinite normal, typing 10s steps(40) 1s normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: fit-content;
+    }
+}
+
+@keyframes blinkCursor{
+    from {
+        border-right-color: rgba(255,255,255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+
+}
+
+/*Tentando consertar a ordem dos elementos*/
+
+ .hero-btns {
+    z-index: 2;
+   
 }
 
 @media (max-width: 700px) {
-    .header-container {
-        background: red;
+    .hero-container {
+       text-align: center;
         width: 90%;
         height: 500px;
-        margin: 60px auto;
-        background-image: url("https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-        background-position: center;
-        background-size: 500px 498px;
-        background-repeat: no-repeat;
+  
+    }
+
+    h1 {
+        font-size: 25px;
     }
 }

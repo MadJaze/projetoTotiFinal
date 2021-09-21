@@ -1,0 +1,27 @@
+{
+  "cars": [
+    {
+      "id": 2,
+      "car": "Toyota Corolla",
+      "cost": "23.456",
+      "year": 2014,
+      "image": "https://p.kindpng.com/picc/s/32-320413_honda-civic-vti-2019-hd-png-download.png"
+    },
+    {
+      "id": 3,
+      "car": "Ford Fiesta",
+      "cost": "432.436",
+      "year": 2012,
+      "image": "https://p.kindpng.com/picc/s/32-320413_honda-civic-vti-2019-hd-png-download.png"
+    },
+    {
+      "id": 4,
+      "car": "Ford Fiesta",
+      "color": "vermelho",
+      "cost": "432.436",
+      "year": 2012,
+      "image": "https://p.kindpng.com/picc/s/32-320413_honda-civic-vti-2019-hd-png-download.png"
+    }
+  ],
+  "conteudo": []
+}

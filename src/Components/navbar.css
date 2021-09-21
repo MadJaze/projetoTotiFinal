@@ -18,7 +18,7 @@
     align-items: center;
     color: white;
     background: black;
-    cursor: pointer;
+   
     border-bottom: 1ps solid white;
     list-style: none;
     text-decoration: none;
@@ -47,6 +47,7 @@
     background: black;
     cursor: pointer;
     border-bottom: 1ps solid white;
+  
 }
 
     .nav-menu-show {
@@ -120,6 +121,7 @@ span {
         position: fixed;
         transition: 300ms;
         list-style: none;
+        z-index: 1;
         
     }
 
@@ -130,7 +132,7 @@ span {
         text-decoration: none;
         
         transform: translateX(-250px);
-        
+        z-index: 1;
         background: #2f3640;
         height: 1900px;
         position: fixed;
