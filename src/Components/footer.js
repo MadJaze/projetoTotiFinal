@@ -14,10 +14,10 @@ function Footer() {
             <i className="fab fa-github-square "></i>
           </a>
 
-          <a href="#">
+          <a href="https://www.instagram.com/">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/gaming/Madjaze">
             <i className="fab fa-facebook-square"></i>
           </a>
         </div>
@@ -37,7 +37,7 @@ function Footer() {
         <p className="Subtitulo">
           <strong>Atenção ao cliente</strong>
         </p>
-        <a href="#" className="Whatsaap">
+        <a href="https://www.heropatterns.com/" className="Whatsaap">
           <i class="fab fa-whatsapp-square"></i>{" "}
         </a>
 

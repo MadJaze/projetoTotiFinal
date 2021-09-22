@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Header from './header'
+import Products from './Pages/products'
 import Footer from './footer'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import './navbar.css'
@@ -51,7 +52,7 @@ function Navbar() {
         </Route>
         <Route path = "/products">o
             <div className="teste2"> 
-            
+                <Products />
             </div>
         </Route>
         <Router path="/sign-up">o
