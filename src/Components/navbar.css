@@ -6,7 +6,7 @@
 .fundo {
     background: black ;
     width: 100%;
-    position: fixed;
+   
 }
 
 .nav-menu-largeScreen {
@@ -99,7 +99,7 @@ span {
 
 .nav-link-signUp:hover {
    color: black;
-   background: white;
+   background: rgb(58, 57, 57);
 }
 
 .fa-bars {
@@ -121,7 +121,7 @@ span {
         position: fixed;
         transition: 300ms;
         list-style: none;
-        z-index: 1;
+        z-index: 100;
         
     }
 
@@ -134,8 +134,10 @@ span {
         transform: translateX(-250px);
         z-index: 1;
         background: #2f3640;
-        height: 1900px;
+        height: 800px;
         position: fixed;
+        top: 0;
+        left: 0;
         color: white;
         transition: 800ms;
     }
@@ -172,32 +174,47 @@ span {
 /*Testes provisionais*/
 .teste {
     height: 800px;
-    background: blue;
-    margin: 60px auto;
-    width: 90%;
+    text-align:center;
+    margin: 20px auto;
+    margin-bottom: 0;
+    width: 100%;
     
    
 }
 .teste0 {
     height: 800px;
-    background: violet;
-    margin: 60px auto;
+  
+    margin: 90px auto;
+    margin-bottom: 0;
     width: 90%;
     
    
 }
 .teste2 {
    text-align: center;
-    margin: 60px auto;
-    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 0;
+    width: 100%;
     
    
 }
 .teste4 {
     height: 800px;
     background: green;
-    margin: 60px auto;
+    margin: 5px auto;
+    margin-bottom: 0;
     width: 90%;
+    
+   
+}
+.teste5 {
+    height: 800px;
+   background-image: url("https://www.teahub.io/photos/full/127-1277182_hd-auto-images-car-wallpapers-mac-car-desktop.jpg");
+   background-repeat: no-repeat;
+ background-size: cover;
+  
+   
+    width: 100%;
     
    
 }

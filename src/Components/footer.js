@@ -8,7 +8,7 @@ function Footer() {
       <section className="Footer">
         <div className="Social">
           <p className="Subtitulo">
-            <strong>Siganos nas redes socias</strong>
+            <strong>Siganos nas redes sociais</strong>
           </p>
           <a href="https://github.com/">
             <i className="fab fa-github-square "></i>
