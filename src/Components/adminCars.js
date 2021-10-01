@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import ReactPaginate from 'react-paginate';
 import "./adminCars.css"
-import { inputCar } from "./api/axios";
+import { inputCar, deletarCar, getCars } from "./api/axios";
 
 
 export default function AdminCars() {
+
+const [lista, setLista] = useState()
 
  const [car, setCar] = useState()
  const [color, setColor] = useState()
@@ -12,17 +15,36 @@ export default function AdminCars() {
  const [km, setKm] = useState()
  const [image, setImage] = useState()
 
+const handlePageClick = async(data) => {
+  let select = data.selected
+  console.log(select)
+  const result = await getCars(select)
+  setLista(result)
 
+}
 
-const handleSubmit = (event) => {
+const handleSubmit = async(event) => {
     event.preventDefault()
     const data = { car: car, color: color, price: price, year: year, km: km, image: image }
+    const result = await getCars()
+    setLista(result)
     inputCar(data)
+}
+
+const listar = async() => {
+    const result = await getCars()
+    setLista(result)    
+}
+
+const deletar = async(id) => {
+    deletarCar(id)
+    const result= await getCars()
+    setLista(result)
 }
 
 
 return (
- 
+ <div>
         <form className="admin-cars-container" onSubmit={handleSubmit}>
             <h1>Car Imput System</h1>
             <label> Enter your name Car:</label>
@@ -43,6 +65,42 @@ return (
             <button type="submit" className="btn-send-database">Send new Database </button>
         </form>
 
+      <div className = 'delete-form'>
+          <button className="btns" onClick={() => listar()}>Update Cars</button>
+      </div>
+      <div>
+          {lista && lista.data?.map(element => {
+              return (
+                <div key= {element.id} className="container-principal" onClick={() => deletar(element.id)}>
+                    <div className="container-cards"> 
+                    <img src={element.image} alt="modelo_carro"/>
+                        <ul className="cards">
+                       
+                        <li className="car">{element.car}</li>
+                        <li className="price">R$ <span>{element.price}</span></li>
+                        <li className="year">{element.year} - {element.km} km</li>
+                        </ul>
+                    </div>
+                </div>       
+              )
+          })}
+      </div>
+
+          
+<ReactPaginate
+          previousLabel={'previous'}
+          nextLabel={'next'}
+          breakLabel={'...'}
+          breakClassName={'break-me'}
+          pageCount={3}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={5}
+          onPageChange={handlePageClick}
+          containerClassName={'pagination'}
+          activeClassName={'active'}
+        />
+
+        </div>
 )
 
 

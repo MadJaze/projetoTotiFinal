@@ -1,11 +1,12 @@
 .admin-cars-container {
     padding: 10px;
-    background-color: rgba(95, 158, 160, 0.486);
+    background-color: #0a2c5ea3;
     border-radius: 20px;
    display: flex;
    flex-direction: column;
    width: 500px;
    margin: 30px auto;
+   color: white;
 
 
 }

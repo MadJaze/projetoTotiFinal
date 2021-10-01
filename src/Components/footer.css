@@ -1,6 +1,11 @@
 .Footer {
     font-family: sans-serif;
     text-align: center;
+    background: #2f3640;
+    padding: 15px 0; 
+    color: #fff; 
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
   }
   .Social a {
     text-decoration: none;

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import ReactPaginate from 'react-paginate';
 import './products.css'
-import { getCars } from '../api/axios' 
+import { getCars, getCarsByName } from '../api/axios' 
+
 
 function Products() {
   
@@ -11,6 +13,20 @@ const listar = async() => {
     setLista(result)
 }
 
+const handleChange = async (e) => { 
+    console.log(e.target.value)
+    const result = await getCarsByName(e.target.value)
+    setLista(result)
+    console.log(result)
+}
+
+const handlePageClick = async (data) => {
+    let select = data.selected 
+    console.log(select)
+    const result = await getCars(select)
+    setLista(result) 
+}
+
     return (
 
         <div>
@@ -18,7 +34,7 @@ const listar = async() => {
             <div>           
             <button onClick={() => listar()} className="btn-products">Listar carros</button>
             <h1>O carros com os melhores preços!</h1>
-            <input type = "text" placeholder="Que carro você está procurando?" className="input-products"/>
+            <input type = "text" onBlur={handleChange} placeholder="Que carro você está procurando?" className="input-products"/>
             </div>
             
             {lista && (lista.data?.map(element => {
@@ -37,6 +53,21 @@ const listar = async() => {
                     </div>
                 )
             }))}
+
+<ReactPaginate
+          previousLabel={'previous'}
+          nextLabel={'next'}
+          breakLabel={'...'}
+          breakClassName={'break-me'}
+          pageCount={3}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={5}
+          onPageChange={handlePageClick}
+          containerClassName={'pagination'}
+          activeClassName={'active'}
+        />
+
+
         </div>
 
     )

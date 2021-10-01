@@ -106,6 +106,58 @@ span {
     display: none;
 }
 
+/*Testes provisionais*/
+.teste {
+    
+    text-align:center;
+    margin: 20px auto;
+    margin-bottom: 0;
+    width: 90%;
+    
+   
+}
+.teste0 {
+    height: 800px;
+ 
+    margin: 90px auto;
+    margin-bottom: 0;
+    width: 90%;
+    
+   
+}
+.teste2 {
+   text-align: center;
+    margin: 20px auto;
+    margin-bottom: 0;
+    width: 90%;
+    
+   
+}
+.teste4 {
+
+    height: 500px;
+    background-image: url("./imagens/backgroundLogin.jpg");
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+  
+ 
+    
+   
+}
+.teste5 {
+    height: 800px;
+    background: black;
+   background-repeat: no-repeat;
+     background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+    
+   
+}
+
 
 @media (max-width: 700px) {
 
@@ -124,6 +176,17 @@ span {
         z-index: 100;
         
     }
+
+    .teste {
+        width: 100%;
+ 
+    }
+    .teste2 {
+        width: 100%;
+ 
+    }
+
+
 
     .nav-menu-show {
        
@@ -171,50 +234,3 @@ span {
 
 }
 
-/*Testes provisionais*/
-.teste {
-    height: 800px;
-    text-align:center;
-    margin: 20px auto;
-    margin-bottom: 0;
-    width: 100%;
-    
-   
-}
-.teste0 {
-    height: 800px;
-  
-    margin: 90px auto;
-    margin-bottom: 0;
-    width: 90%;
-    
-   
-}
-.teste2 {
-   text-align: center;
-    margin: 20px auto;
-    margin-bottom: 0;
-    width: 100%;
-    
-   
-}
-.teste4 {
-    height: 800px;
-    background: green;
-    margin: 5px auto;
-    margin-bottom: 0;
-    width: 90%;
-    
-   
-}
-.teste5 {
-    height: 800px;
-   background-image: url("https://www.teahub.io/photos/full/127-1277182_hd-auto-images-car-wallpapers-mac-car-desktop.jpg");
-   background-repeat: no-repeat;
- background-size: cover;
-  
-   
-    width: 100%;
-    
-   
-}

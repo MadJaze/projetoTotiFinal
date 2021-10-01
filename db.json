@@ -31,42 +31,6 @@
       "car": "Toyota",
       "color": "vermelho",
       "price": "432.436",
-      "km": 450,
-      "year": 2012,
-      "image": "https://cdn.mundodastribos.com/2011/03/carros-volkswagen-linha-2012.jpg"
-    },
-    {
-      "id": 6,
-      "car": "Toyota",
-      "color": "vermelho",
-      "price": "432.436",
-      "km": 600,
-      "year": 2012,
-      "image": "https://cdn.mundodastribos.com/2011/03/carros-volkswagen-linha-2012.jpg"
-    },
-    {
-      "id": 7,
-      "car": "Toyota",
-      "color": "vermelho",
-      "price": "432.436",
-      "km": 0,
-      "year": 2012,
-      "image": "https://revistacarro.com.br/wp-content/uploads/2021/06/Fiat-Pulse_1.jpg"
-    },
-    {
-      "id": 8,
-      "car": "Toyota",
-      "color": "vermelho",
-      "price": "432.436",
-      "km": 0,
-      "year": 2012,
-      "image": "https://revistacarro.com.br/wp-content/uploads/2021/06/Fiat-Pulse_1.jpg"
-    },
-    {
-      "id": 5,
-      "car": "Toyota",
-      "color": "vermelho",
-      "price": "432.436",
       "km": 0,
       "year": 2012,
       "image": "https://revistacarro.com.br/wp-content/uploads/2021/06/Fiat-Pulse_1.jpg"
@@ -81,13 +45,31 @@
       "id": 9
     },
     {
-      "car": "RENAULT MASTER  ",
-      "color": "Branco",
-      "price": "7660004",
-      "year": "2002",
+      "car": "CHEVROLET ONIX",
+      "color": "Azul ",
+      "price": "345732",
+      "year": "2008",
       "km": "300",
-      "image": "https://img1.icarros.com/dbimg/galeriaimgmodelo/8/47206_1.jpg",
-      "id": 10
+      "image": "https://jorlan.com/go/uploads/products/versions/colors/chevrolet-2-onix-premier-azul-seeker-min.png",
+      "id": 11
+    },
+    {
+      "car": "Mazda 3",
+      "color": "vermelho",
+      "price": "494732",
+      "year": "2017",
+      "km": "233",
+      "image": "https://preview2.netcarshow.com/Mazda-3_Sedan-2017-1600-06.jpg",
+      "id": 12
+    },
+    {
+      "car": "Navezota",
+      "color": "branco",
+      "price": "89999999",
+      "year": "3600",
+      "km": "34",
+      "image": "https://3.bp.blogspot.com/-1L4iGYyaC8o/WQOeyHiju8I/AAAAAAACmR0/vVEL2X7_D-w3byNXqTzoDXF6gHCVZKhGQCLcB/s1600/falcon.jpg",
+      "id": 14
     }
   ],
   "services": [
@@ -99,11 +81,78 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmeynztdyOU0zklgHq2n8mZgXzGxeNgc9JpvnJ3wQQzeFWgCOT81ApNzcbXvgNc_U4qtQ&usqp=CAU"
     },
     {
-      "id": 2,
-      "name": "Revisão dos componentes de Freio",
+      "name": "Troca de filtros.",
+      "price": "65.000",
+      "quota": "12",
+      "image": "https://pemavel.com.br/wp-content/uploads/2018/12/filtros-do-carro.jpg",
+      "id": 3
+    },
+    {
+      "name": " Troca de lâmpadas.",
       "price": "60.000",
-      "quota": "7",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStVhAZ5ofzuD2OR-agdd8byKvOH-jbKV_MXkLPlnbcNIYLdltSJ97wKA-8JrH_phuOLKM&usqp=CAU"
+      "quota": "12",
+      "image": "https://fotos.jornaldocarro.estadao.com.br/jornal-do-carro/imagens/noticia/especial-lampadas-4.jpg",
+      "id": 5
+    },
+    {
+      "name": "Baila tu cuerpo alegria macarena ",
+      "price": "23232234",
+      "quota": "2222",
+      "image": "https://assets.pokemon.com/assets//cms2-pt-br/img/video-games/_tiles/pokemon-unite/launch/mobile/pokemon-unite-169.jpg",
+      "id": 6
+    },
+    {
+      "name": "Entra a la casa o te jodo ",
+      "price": "23232323",
+      "quota": "4600",
+      "image": "https://static8.depositphotos.com/1444991/935/i/950/depositphotos_9351800-stock-photo-mother-scolding-her-son.jpg",
+      "id": 8
+    },
+    {
+      "name": "Quién coño eres tu?",
+      "price": "122333",
+      "quota": "20",
+      "image": "https://social.excite.es/var/excite/storage/images/excite-espana/vivir/vida-estilo/7-preguntas-para-descubrir-quien-eres-en-realidad/970920-1-esl-ES/7-preguntas-para-descubrir-quien-eres-en-realidad.jpg",
+      "id": 9
+    },
+    {
+      "name": "Hijo de la gran puta ",
+      "price": "1222",
+      "quota": "300",
+      "image": "https://pbs.twimg.com/media/DgUgLQAW0AUauoi.jpg",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Robinson",
+      "password": "robinsoncrusoe@gmail.com"
+    },
+    {
+      "name": "José",
+      "password": "karlavenecia",
+      "id": 2
+    },
+    {
+      "name": "Horacio",
+      "password": "megustanloscarros",
+      "id": 3
+    },
+    {
+      "name": "Jasiel",
+      "password": "programador2021",
+      "id": 4
+    },
+    {
+      "name": "Rocio de la Mañana",
+      "password": "amanecerbonito",
+      "id": 5
+    },
+    {
+      "name": "Paulo",
+      "password": "kakakaka",
+      "id": 6
     }
   ]
 }

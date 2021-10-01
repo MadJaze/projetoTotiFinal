@@ -4,7 +4,7 @@ import './footer.css'
 function Footer() {
   return (
     <footer>
-      <hr></hr>
+    
       <section className="Footer">
         <div className="Social">
           <p className="Subtitulo">

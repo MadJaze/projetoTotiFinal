@@ -5,6 +5,8 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import "./admin.css"
 import AdminCars from "./adminCars"
+import AdminServices from "./adminservices"
+
 
 export default function Admin() {
 
@@ -27,7 +29,7 @@ export default function Admin() {
                     <div className="teste-admin-cars"><AdminCars /></div>
                     </Route>
                     <Route path="/admin-services-input">
-                    <div className="teste-admin-services"></div>
+                    <div className="teste-admin-services"><AdminServices /></div>
                     </Route>
                 </Switch>
 
