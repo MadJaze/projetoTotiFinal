@@ -59,7 +59,7 @@ const handlePageClick = async (data) => {
           nextLabel={'next'}
           breakLabel={'...'}
           breakClassName={'break-me'}
-          pageCount={3}
+          pageCount={4}
           marginPagesDisplayed={2}
           pageRangeDisplayed={5}
           onPageChange={handlePageClick}

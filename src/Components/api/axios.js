@@ -5,7 +5,7 @@ const baseUrl = "http://localhost:3000"
 //Para ser colocado dentro da búsqueda de carros. 
 
 export const getCars = async(select) => {
-    const url = `${baseUrl}/cars?_page=${select + 1}&_limit=5`
+    const url = `${baseUrl}/cars?_page=${select + 1}&_limit=8`
    //const url = `${baseUrl}/cars`
     return await axios.get(url)
 }

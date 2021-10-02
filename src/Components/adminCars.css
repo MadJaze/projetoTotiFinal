@@ -48,3 +48,41 @@ h1 {
        margin: 30px auto;
     }
 }
+
+
+.pagination {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .pagination li {
+      font-weight: bold;
+      background: aquamarine;
+      cursor: pointer;
+      margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .pagination li:focus {
+      background: black;
+      color: white;
+      cursor: pointer;
+      margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .container-principal {
+      margin: auto; 
+  }
+
+  .haciendo-milagros {
+      width: 90%;
+      text-align: center;
+      margin: auto;
+  }

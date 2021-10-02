@@ -68,7 +68,7 @@ return (
       <div className = 'delete-form'>
           <button className="btns" onClick={() => listar()}>Update Cars</button>
       </div>
-      <div>
+      <div className="haciendo-milagros">
           {lista && lista.data?.map(element => {
               return (
                 <div key= {element.id} className="container-principal" onClick={() => deletar(element.id)}>
@@ -80,27 +80,29 @@ return (
                         <li className="price">R$ <span>{element.price}</span></li>
                         <li className="year">{element.year} - {element.km} km</li>
                         </ul>
+                    
                     </div>
+                    
                 </div>       
               )
           })}
       </div>
 
-          
+     
 <ReactPaginate
-          previousLabel={'previous'}
-          nextLabel={'next'}
+          previousLabel={'Previous'}
+          nextLabel={'Next'}
           breakLabel={'...'}
           breakClassName={'break-me'}
-          pageCount={3}
+          pageCount={4}
           marginPagesDisplayed={2}
           pageRangeDisplayed={5}
           onPageChange={handlePageClick}
           containerClassName={'pagination'}
           activeClassName={'active'}
         />
-
-        </div>
+</div>
+        
 )
 
 
