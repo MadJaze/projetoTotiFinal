@@ -11,7 +11,7 @@ export const getCars = async(select) => {
 }
 
 export const getCarsByName = async(carsName) => { 
-    const url = `${baseUrl}/cars?car=${carsName}`
+    const url = `${baseUrl}/cars?palavra-chave=${carsName}`
     return await axios.get(url)
 }
 

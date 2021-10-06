@@ -1,12 +1,7 @@
 import React, { useState } from 'react'
-import Header from './header'
-import Products from './Pages/products'
-import Services from './Pages/services'
-import Login from './login'
-import Footer from './footer'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './navbar.css'
-import Admin from './admin'
+
 
 
 function Navbar() {
@@ -19,7 +14,7 @@ function Navbar() {
 
     return (
         
-        <Router>
+      
         <div className="fundo">
         <div className="navbar-container">
           <Link to="/" > <p className="logo"><span>C</span>ars<span>S</span>ite<i className ="fas fa-car"></i></p> </Link>
@@ -44,34 +39,8 @@ function Navbar() {
         </div>
         </div>
 
-        <Switch>
-
-        <Route exact path="/"> 
-          <Header />
-        </Route>
-        <Route path="/services">
-           
-            <div className='teste'> <Services /></div>
-        </Route>
-        <Route path = "/products">
-            <div className="teste2"> 
-                <Products />
-            </div>
-        </Route>
-        <Route path="/sign-up">
-           <div className="teste4"> <Login />
-           </div>
-        </Route>
-            <Route>
-                <div className="teste5"> 
-                    <Admin />
-                </div>
-            </Route>
-        </Switch>
-       <div>
-        <Footer />
-        </div>
-        </Router>
+      
+       
        
     )
 }

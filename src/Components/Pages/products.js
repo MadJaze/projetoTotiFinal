@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import ReactPaginate from 'react-paginate';
+import Cars1 from "./cars1";
 import './products.css'
 import { getCars, getCarsByName } from '../api/axios' 
 
@@ -7,6 +9,10 @@ import { getCars, getCarsByName } from '../api/axios'
 function Products() {
   
   const [lista, setLista] = useState("")
+  useEffect (async() => {
+    const result = await getCars()
+    setLista(result)
+  }, [])
 
 const listar = async() => {
     const result = await getCars()
@@ -28,7 +34,7 @@ const handlePageClick = async (data) => {
 }
 
     return (
-
+      <Router> 
         <div>
            {/*<input type="text" onChange={(event) => handleChange()} placeholder="Which car are you looking for?"/> */}
             <div>           
@@ -39,7 +45,7 @@ const handlePageClick = async (data) => {
             
             {lista && (lista.data?.map(element => {
                 return (
-                    <div className="container-principal">
+                    <div className="container-principal"><Link to= {`/cars/${element.id}`} state ={{id: element.id}} >
                     <div className="container-cards">
                     <img src={element.image} alt="modelo_carro"/>
                         <ul className="cards">
@@ -49,11 +55,12 @@ const handlePageClick = async (data) => {
                         <li className="year">{element.year} - {element.km} km</li>
                         </ul>
                     </div>
-                    
+                    </Link>
                     </div>
                 )
             }))}
 
+            
 <ReactPaginate
           previousLabel={'previous'}
           nextLabel={'next'}
@@ -69,7 +76,7 @@ const handlePageClick = async (data) => {
 
 
         </div>
-
+        </Router>
     )
 
 

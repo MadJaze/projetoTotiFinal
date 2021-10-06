@@ -3,6 +3,7 @@
     {
       "id": 2,
       "car": "Toyota Corolla",
+      "palavra-chave": "toyota",
       "color": "amarelo",
       "price": "23.456",
       "year": 2014,
@@ -11,6 +12,7 @@
     {
       "id": 3,
       "car": "Ford Fiesta",
+      "palavra-chave": "ford",
       "color": "azul",
       "price": "432.436",
       "year": 2012,
@@ -18,17 +20,19 @@
       "image": "https://www.pngfind.com/pngs/m/16-166383_2017-ford-fiesta-s-2019-ford-fiesta-hatchback.png"
     },
     {
-      "id": 4,
+      "id": 30,
       "car": "Volkswagen",
+      "palavra-chave": "volkswagen",
       "color": "vermelho",
       "price": "432.436",
       "km": 300,
       "year": 2012,
-      "image": "https://cdn.mundodastribos.com/2011/03/carros-volkswagen-linha-2012.jpg"
+      "image": "https://p2.trrsf.com/image/fget/cf/600/400/images.terra.com/2021/08/06/gol-traseira.jpg"
     },
     {
       "id": 5,
       "car": "Toyota",
+      "palavra-chave": "toyota",
       "color": "vermelho",
       "price": "432.436",
       "km": 0,
@@ -37,6 +41,7 @@
     },
     {
       "car": "Lambourgini",
+      "palavra-chave": "lambourgini",
       "color": "Amarelo",
       "price": "602333",
       "year": "2020",
@@ -46,6 +51,7 @@
     },
     {
       "car": "CHEVROLET ONIX",
+      "palavra-chave": "chevrolet",
       "color": "Azul ",
       "price": "345732",
       "year": "2008",
@@ -55,6 +61,7 @@
     },
     {
       "car": "Mazda 3",
+      "palavra-chave": "mazda",
       "color": "vermelho",
       "price": "494732",
       "year": "2017",
@@ -64,6 +71,7 @@
     },
     {
       "car": "Navezota",
+      "palavra-chave": "toyota",
       "color": "branco",
       "price": "89999999",
       "year": "3600",
@@ -73,6 +81,7 @@
     },
     {
       "car": "HYUNDAI HB20",
+      "palavra-chave": "hyundai",
       "color": "Vermelho",
       "price": "45.000",
       "year": "1998",
@@ -82,6 +91,7 @@
     },
     {
       "car": "Chevrolet",
+      "palavra-chave": "chevrolet",
       "color": "Azul ",
       "price": "25000",
       "year": "2005",
@@ -91,6 +101,7 @@
     },
     {
       "car": "VW",
+      "palavra-chave": "vw",
       "color": "Variado",
       "price": "45.000",
       "year": "2019",
@@ -100,6 +111,7 @@
     },
     {
       "car": "Peugeot",
+      "palavra-chave": "peugeot",
       "color": "Vermelho",
       "price": "355.000",
       "year": "2018",
@@ -109,6 +121,7 @@
     },
     {
       "car": "Mitsubishi",
+      "palavra-chave": "mitsubishi",
       "color": "Cinza",
       "price": "400.000",
       "year": "2017",
@@ -118,6 +131,7 @@
     },
     {
       "car": "Citroen",
+      "palavra-chave": "citroen",
       "color": "vermelho",
       "price": "538.000",
       "year": "1919",
@@ -127,6 +141,7 @@
     },
     {
       "car": "Citroen",
+      "palavra-chave": "citroen",
       "color": "Branco",
       "price": "938.000",
       "year": "2021",
@@ -136,6 +151,7 @@
     },
     {
       "car": "Caoa Cherry",
+      "palavra-chave": "caoa",
       "color": "branco",
       "price": "223.000",
       "year": "2019",
@@ -145,6 +161,7 @@
     },
     {
       "car": "Lambourgini",
+      "palavra-chave": "lambourgini",
       "color": "azul",
       "price": "20000000",
       "year": "2000",
@@ -154,6 +171,7 @@
     },
     {
       "car": "Renault Duster",
+      "palavra-chave": "renault",
       "color": "dourado",
       "price": "3000000",
       "year": "2018",
@@ -163,6 +181,7 @@
     },
     {
       "car": "Rayo McQueen",
+      "palavra-chave": "lambourgini",
       "color": "vermelho",
       "price": "-300.000",
       "year": "2002",
@@ -171,16 +190,8 @@
       "id": 25
     },
     {
-      "car": "Fiat Strada Volcano ",
-      "color": "cinza ",
-      "price": "23090",
-      "year": "2011",
-      "km": "23",
-      "image": "https://cdn.motor1.com/images/mgl/KpK4q/s1/fiat-strada-volcano-1.3-2021-teste-br.webp",
-      "id": 26
-    },
-    {
       "car": "Fiat Mobi",
+      "palavra-chave": "fiat",
       "color": "Vermelho e preto",
       "price": "34.000",
       "year": "2021",
@@ -190,6 +201,7 @@
     },
     {
       "car": "Nissan Kicks",
+      "palavra-chave": "nissan",
       "color": "laranja",
       "price": "67.000",
       "year": "2021",
@@ -199,6 +211,7 @@
     },
     {
       "car": "Nissan Frontier",
+      "palavra-chave": "nissan",
       "color": "branco",
       "price": "45.000",
       "year": "2010",
@@ -208,6 +221,7 @@
     },
     {
       "car": "Caoa Chery Tiggo 5x",
+      "palavra-chave": "caoa",
       "color": "azul",
       "price": "2344456",
       "year": "2019",
@@ -217,6 +231,7 @@
     },
     {
       "car": "Fiat Cronos",
+      "palavra-chave": "fiat",
       "color": "vermelho oscuro",
       "price": "340.000",
       "year": "2019",
@@ -226,6 +241,7 @@
     },
     {
       "car": "Nissan Versa",
+      "palavra-chave": "nissan",
       "color": "2013",
       "price": "111111",
       "year": "2013",
@@ -235,6 +251,7 @@
     },
     {
       "car": "Toyota ",
+      "palavra-chave": "toyota",
       "color": "toyota",
       "price": "24555",
       "year": "2016",

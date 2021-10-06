@@ -53,6 +53,7 @@ h1 {
 .pagination {
     text-align: center;
     width: 100%;
+    background-color: white;
     display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
@@ -60,14 +61,14 @@ h1 {
   
   .pagination li {
       font-weight: bold;
-      background: aquamarine;
+
       cursor: pointer;
       margin: 10px;
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
   }
-  .pagination li:focus {
+  .active  {
       background: black;
       color: white;
       cursor: pointer;
@@ -82,7 +83,10 @@ h1 {
   }
 
   .haciendo-milagros {
+      background: white;
+      border-radius: 20px;
       width: 90%;
       text-align: center;
       margin: auto;
+    
   }
