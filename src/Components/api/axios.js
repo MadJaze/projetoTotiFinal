@@ -15,6 +15,12 @@ export const getCarsByName = async(carsName) => {
     return await axios.get(url)
 }
 
+//Temos que de algum jeito obter informação dos carros pelo ID quando eles são clickados --------?
+export const getCarsById = async(id) => { 
+    const url = `${baseUrl}/cars/${id}`
+    return await axios.get(url)
+}
+
 //Para ser colocado dentro da búsqueda de serviços.
 export const getServices = async() => {
     const url = `${baseUrl}/services`

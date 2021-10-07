@@ -24,11 +24,12 @@ const routes = () =>  (
   <Route exact path="/"> 
     <Header />
   </Route>
+  
   <Route path="/services">
      
       <div className='teste'> <Services /></div>
   </Route>
-  <Route path = "/products">
+  <Route path = "/products" exact component = {Products}>
       <div className="teste2"> 
           <Products />
       </div>
@@ -37,16 +38,19 @@ const routes = () =>  (
      <div className="teste4"> <Login />
      </div>
   </Route>
-      <Route>
+      <Route path="admin-mode">
           <div className="teste5"> 
               <Admin />
           </div>
       </Route>
    
-       <Route path="/cars/:id" component = {Cars1} /> 
+    
+
+       <Route path="/cars/:id" component={Cars1} > <Cars1 /> </Route > 
            
   </Switch>
   <Footer />
+ 
   </ Fragment>
 )
 

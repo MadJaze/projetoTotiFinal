@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+
 import './navbar.css'
 
 
@@ -36,6 +37,8 @@ function Navbar() {
             </ul>
             <i className={click ? "fas fa-times" : "fas fa-bars"} onClick={handleClick} />
             
+
+
         </div>
         </div>
 
