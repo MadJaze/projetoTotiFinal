@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {BrowserRouter as Router,  Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import ReactPaginate from 'react-paginate';
 
 import './products.css'
@@ -35,7 +35,7 @@ const handlePageClick = async (data) => {
 }
 
     return (
-      <Router> 
+       
         <div>
            {/*<input type="text" onChange={(event) => handleChange()} placeholder="Which car are you looking for?"/> */}
             <div>           
@@ -77,7 +77,7 @@ const handlePageClick = async (data) => {
 
 
         </div>
-        </Router>
+        
     )
 
 

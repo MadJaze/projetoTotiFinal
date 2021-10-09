@@ -3,6 +3,10 @@
    
 }
 
+body { 
+    background: #ededed;
+}
+
 .fundo {
     background: black ;
     width: 100%;

@@ -1,0 +1,126 @@
+.container-by-id {
+    width: 90%;
+    background: white;
+    padding: 25px 16px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+   
+}
+
+.title-by-id {
+    margin: 40px 0px 0px 0px;
+}
+
+.price-by-id {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.conteudo-by-id {
+    display: grid;
+  /*  align-items: center;*/
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px;
+    
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.conteudo-by-id img{
+    width: 500px;
+    border-radius: 20px;
+    transition: 300ms;
+}
+
+.conteudo-by-id img:hover{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 1px black;
+   
+    
+}
+
+/* PAyment method container and any element inside it */
+.payment-method {
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 8px;
+    padding: 25px 16px;
+    box-sizing: border-box;
+}
+
+.frete-gratis {
+    color: #00a650;
+    font-size: 18px;
+
+}
+
+.fa-truck {
+    margin-right: 10px;
+}
+.fa-map-marker-alt{
+    margin-right: 10px;
+}
+
+.prazos-de-entrega {
+    font-size: 14px;
+    margin-left: 40px;
+
+}
+
+.location {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #3483fa;
+}
+
+.estoque {
+    margin-left: 40px;
+    margin-bottom: 10px; 
+}
+
+.price-by-id2{
+    margin-left: 40px;
+    margin-top: 0;
+    font-size: 35px;
+    margin-bottom: 19px;
+}
+
+.little{ 
+    font-size: 18px;
+}
+
+.btn-purchase-payment {
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    background: #3483fa;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: transparent; 
+    box-shadow: 0 0 0 0 #fff;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 300ms;
+   
+}
+
+.btn-purchase-payment:hover {
+
+    background: #2968c8;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .conteudo-by-id p {
+        width: 100%;
+
+}
+}

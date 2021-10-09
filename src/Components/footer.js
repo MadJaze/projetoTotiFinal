@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import './footer.css'
 
 function Footer() {
@@ -43,7 +44,7 @@ function Footer() {
 
         <hr></hr>
 
-        <p>2021 &copy Todos os Direitos reservados: Cars</p>
+       <Link to ="/special"> <p className="special-feature">2021 &copy Todos os Direitos reservados: Cars</p> </Link>
       </section>
     </footer>
   );

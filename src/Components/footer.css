@@ -27,3 +27,15 @@
     font-size: 30px;
     margin: 10px;
   }
+
+  .special-feature {
+    cursor:help;
+    color: white;
+  }
+
+  .game {
+    margin:30px auto;
+display: flex;
+justify-content: center;
+
+  }

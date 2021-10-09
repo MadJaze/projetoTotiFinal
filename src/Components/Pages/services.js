@@ -1,25 +1,48 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './products.css'
-import { getServices } from "../api/axios"
+import ReactPaginate from 'react-paginate'
+import { getServices, getServicesByName } from "../api/axios"
 
 
 function Services() {
 
 const [lista, setLista] = useState("")
 
-const listar = async() => {
+useEffect (async () => {
     const result = await getServices()
     setLista(result)
+}, [])
+
+/*const listar = async() => {
+    const result = await getServices()
+    setLista(result)
+}*/
+
+const handleChange = async(e) => {
+
+    console.log(e.target.value)
+    const result = await getServicesByName(e.target.value) 
+    setLista(result)
+    console.log(result)
+
 }
 
+const handlePageClick = async(data) => {
+    let select = data.selected 
+    console.log(select)
+    const result = await getServices(select)
+    setLista(result)
+}
 
 
 return (
 
     <div>
-        <button onClick={() => listar()} className="btn-products">Get Services</button>
+      {/* <button onClick={() => listar()} className="btn-products">Get Services</button>*/}
+        <div>
         <h1>Confira os nossos serviços!</h1>
-
+        <input type="text" onBlur={handleChange} placeholder="Qual serviço está procurando?" className="input-products"/>
+        </div>
         {lista && (lista.data?.map(element => {
         return (
             <div className="container-principal">
@@ -35,6 +58,18 @@ return (
         )
     }))}
 
+<ReactPaginate
+          previousLabel={'previous'}
+          nextLabel={'next'}
+          breakLabel={'...'}
+          breakClassName={'break-me'}
+          pageCount={4}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={5}
+          onPageChange={handlePageClick}
+          containerClassName={'pagination'}
+          activeClassName={'active'}
+        />
 
     </div>
 

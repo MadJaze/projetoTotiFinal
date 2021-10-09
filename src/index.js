@@ -7,6 +7,7 @@ import Login from './Components/login';
 import Admin from './Components/admin';
 import Footer from './Components/footer';
 import Cars1 from './Components/Pages/cars1';
+import { Special } from './Components/Pages/special';
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import './index.css';
 import Navbar from './Components/navbar';
@@ -38,7 +39,7 @@ const routes = () =>  (
      <div className="teste4"> <Login />
      </div>
   </Route>
-      <Route path="admin-mode">
+      <Route path="/admin-mode">
           <div className="teste5"> 
               <Admin />
           </div>
@@ -47,7 +48,7 @@ const routes = () =>  (
     
 
        <Route path="/cars/:id" component={Cars1} > <Cars1 /> </Route > 
-           
+           <Route path ="/special"> <Special /> </Route>
   </Switch>
   <Footer />
  

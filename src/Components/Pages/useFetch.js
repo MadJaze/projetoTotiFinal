@@ -14,7 +14,9 @@ import { useEffect, useState } from 'react';
         fetch (url, { signal: abortCont.signal })
         .then(res => {
             if(!res.ok) {  //Error coming back from server 
-                throw Error (`Could not fetch the data for that resource`);
+             <img src="https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/11pzkk90zbmlh.jpg"/>
+                throw Error (`404: Is this car what you´re looking for?`);
+               
             }
             return res.json();
         })

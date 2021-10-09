@@ -3,6 +3,7 @@
     {
       "id": 2,
       "car": "Toyota Corolla",
+      "description": "El Toyota Corolla es un compacto de segmento C del fabricante japonés Toyota, de 4.37 metros de largo en su carrocería de 5 puertas. Se trata de uno de los modelos más importantes de Toyota, fabricado en Japón, y destinado a cubrir las necesidades de un mercado cada vez más globalizado. Corolla es la denominación comercial que Toyota ha utilizado para su modelo compacto a nivel mundial desde hace más de 50 años.",
       "palavra-chave": "toyota",
       "color": "amarelo",
       "price": "23.456",
@@ -12,6 +13,7 @@
     {
       "id": 3,
       "car": "Ford Fiesta",
+      "description": "Qual foi o último lançamento do Fiesta? Atualmente, o Fiesta desta geração parou de ser comercializado no Brasil até 2015. Foi produzido até 2014. Ele contava com motorização 1.0 ou 1.6 8v Flex Rocam. Podem comprar na loja mais cercana, mais terá que pegar um ónibus porque se vai comprar carro é porque não tem carro. No topo da linha está a versão Titanium, tanto no hatch quanto no sedã, que além dos itens das outras versões, oferece sistema de partida sem chave, bancos revestidos em couro, 7 airbags frontais, laterais, cortina, e para o joelho do motorista, sensor de chuva para ativação automática dos limpadores de para-brisa.",
       "palavra-chave": "ford",
       "color": "azul",
       "price": "432.436",
@@ -22,6 +24,7 @@
     {
       "id": 30,
       "car": "Volkswagen",
+      "description": "A Volkswagen é uma fabricante alemã de veículos que pertence ao Grupo Volkswagen. É o maior fabricante de automóveis do mundo e tem a sua sede na cidade de Wolfsburg, na Baixa Saxônia. O Grupo Volkswagen, além da marca Volkswagen, é, também, proprietário das marcas Audi, Bentley, Bugatti, Ducati, Lamborghini, Seat, Porsche, Škoda Auto, MAN, Volkswagen Caminhões e Ônibus e Scania. Em março de 2011, a Volkswagen adquiriu o segmento comercial da Porsche por 3,3 bilhões de euros, adquirindo, assim, o direito de negociar e operar a marca 'Porsche', fazendo com que a Volkswagen fique mais próxima à fusão com a 'PHS' (Porsche Holding Salzburg).",
       "palavra-chave": "volkswagen",
       "color": "vermelho",
       "price": "432.436",
@@ -32,6 +35,7 @@
     {
       "id": 5,
       "car": "Toyota",
+      "description": "Os melhores carros da Toyota são: o Toyota Corolla, sedan médio com melhor relação oferta de equipamentos, o moderno SUV RAV4 e o hatch premium Toyota Yaris. Toyolex é a maior rede de concessionárias Toyota no Norte/Nordeste. Aqui você encontra o melhor atendimento, condições especiais de pagamento, e um serviço de pós vendas executado com extrema qualidade. Contamos com um Atendimento diferenciado na venda online de carros novos e seminovos. Aqui o nosso cliente encontra tudo em um só lugar: Venda de Acessórios, Seguro, Consórcio e Serviços de Oficina. #VemSerToyolex",
       "palavra-chave": "toyota",
       "color": "vermelho",
       "price": "432.436",
@@ -42,6 +46,7 @@
     {
       "car": "Lambourgini",
       "palavra-chave": "lambourgini",
+      "description": "Lamborghini Aventador SVJ Roadster roxa chega ao Brasil por R$ 8,2 milhões. De acordo com os preços da Tabela Fipe: R$ 664.718,00 é o valor do carro mais barato da Lamborghini ( Gallardo Coupe LP560-4 2009 Gasolina). R$ 6.900.000,00 é o valor do carro mais caro da Lamborghini ( AVENTADOR LP 770-4 SVJ Zero KM a Gasolina). A média de preço é R$ 2.301.854,37.",
       "color": "Amarelo",
       "price": "602333",
       "year": "2020",
@@ -52,6 +57,7 @@
     {
       "car": "CHEVROLET ONIX",
       "palavra-chave": "chevrolet",
+      "description": "Chevrolet Onix com a melhor oferta em Manaus. Descubra o que só a líder em vendas tem. Acesse o site e tenha o seu Chevrolet. Confira nossas Ofertas. Acesse o Site. Chevrolet Cruze Sedan. Tecnologia Onstar. Solicite uma Cotação. Concessionária Autorizada. Proporcionar Conforto Segurança e Tecnologia com Estilo é o Nosso Propósito. Conheça Graciano e Confira a Nossa Variedade de Modelos Chevrolet. Wi-Fi Nativo. Tecnologia OnStar. Solicite uma Cotação. Concessionária Autorizada. Motor Turbo de Série.",
       "color": "Azul ",
       "price": "345732",
       "year": "2008",
@@ -62,6 +68,7 @@
     {
       "car": "Mazda 3",
       "palavra-chave": "mazda",
+      "description": "Destined to be a classic of the modern age, the 2021 Mazda3 2.5 Turbo Sedan delivers up to 250 hp 5 and 320 lb-ft of torque, 5 coupled with our i-Activ AWD®. O Mazda3 Hatchback: no momento em que o vê. Uma expressão poderosa de vitalidade controlada, as suas linhas fluidas e dinâmicas e as suas curvas esculpidas. The Mazda 3 is one of Edmunds' top-rated small sedans. We're particularly fond of its upscale styling and premium interior design. The Mazda 3 punches above its weight class with an upmarket interior, good handling, and optional all-wheel drive.",
       "color": "vermelho",
       "price": "494732",
       "year": "2017",
@@ -72,6 +79,7 @@
     {
       "car": "Navezota",
       "palavra-chave": "toyota",
+      "description": "A X-Wing é uma das naves mais icônicas de Star Wars. Esse modelo é pilotado nos filmes por Luke Skywalker, um dos protagonistas da franquia. Conhecida também como T-65, a espaçonave é versátil, leve e rápida, além de ser a arma principal do herói para destruir a Estrela da Morte, estação do vilão Darth Vader. Na verdade não sou fã do Star Wars só encontrei esta nave-zota no quintal da casa, dirigir com ela é dificil porque no espaço você se perde facilmente, voltar a teu planeta depois de vario anos luz não é simples, requiere muita matemática.",
       "color": "branco",
       "price": "89999999",
       "year": "3600",
@@ -82,6 +90,7 @@
     {
       "car": "HYUNDAI HB20",
       "palavra-chave": "hyundai",
+      "description": "Explore a Hyundai Motor Brasil e conheça nossos carros hatches, sedans e SUVs. Confira nossas ofertas, serviços, experiências e concessionárias. Atualmente a Hyundai comercializa o seu célebre hatch HB20, e seus derivados, sedan, HB20S, aventureiro HB20X e acaba de lançar uma versão com apelo esportivo, o HB20 Sport. O Hyundai Express é uma nova modalidade de venda remota de veículos. Seu principal objetivo é garantir a satisfação do cliente durante todo o processo, até o recebimento do seu carro 0 km. As concessionárias são incentivadas a promover esse atendimento proporcionando a maior comodidade possível.",
       "color": "Vermelho",
       "price": "45.000",
       "year": "1998",
@@ -92,6 +101,7 @@
     {
       "car": "Chevrolet",
       "palavra-chave": "chevrolet",
+      "description": "Preço, Detalhes e Condições Especiais. Fale Direto Com o Vendedor Sem Sair de Casa. Os maiores lançamento do ano aqui: Novo Chevrolet Tracker, Onix, S10 e Trailblazer. Tecnologia OnStar. Motor 153cv. Easy Entry. Chevrolet MyLink. Alerta Ponto Cego. Proporcionar Conforto Segurança e Tecnologia com Estilo é o Nosso Propósito. Conheça Graciano e Confira a Nossa Variedade de Modelos Chevrolet. Solicite uma Cotação.",
       "color": "Azul ",
       "price": "25000",
       "year": "2005",
@@ -102,6 +112,7 @@
     {
       "car": "VW",
       "palavra-chave": "vw",
+      "description": "Volkswagen com aparência esportiva sem perder a elegância. Tecnologia e sofisticação. O Melhor da Tecnologia, Design e Segurança Você Encontra Aqui. Conheça Nossos Modelos. Novo Jetta GLI. Conheça Nossos Modelos. Tecnologia e sofisticação. Confira as Versões. O VW Nivus acaba de conquistar uma das premiações mais importantes do País, o título de Carro do Ano 2021, na eleição conduzida pela revista Autoesporte.",
       "color": "Variado",
       "price": "45.000",
       "year": "2019",
@@ -112,6 +123,7 @@
     {
       "car": "Peugeot",
       "palavra-chave": "peugeot",
+      "description": "Já Fizemos História na Europa. Por Aqui Não Ia Ser Diferente. Descubra Seu Estilo. Ofertas Imperdíveis de Peugeot 2021. Conheça a Nova Linha Hatch e SUV. Opções: PEUGEOT 208, PEUGEOT 2008, PEUGEOT 3008, PEUGEOT 5008, PEUGEOT PARTNER. Procurando por Peugeot Novos e Usados? Na Webmotors você encontra mais de 6125 anúncios de carros com as melhores ofertas do mercado. Acesse Agora!",
       "color": "Vermelho",
       "price": "355.000",
       "year": "2018",
@@ -122,6 +134,7 @@
     {
       "car": "Mitsubishi",
       "palavra-chave": "mitsubishi",
+      "description": "Conforto, Sofisticação e Desempenho que Você Procura. Acesse e Conheça Modelos! Acesse e Conheça os Modelos. O Desempenho que Você Procura Está na Mitsubishi. Drive Your Ambition. Recompra Garantida. Não passe despercebido. Conheça os Serviços. Bem-vindo à Mitsubishi Motors, aqui temos uma linha completa de veículos 4x4, com melhor conforto, tecnologia e segurança que somente Mitsubishi oferece.",
       "color": "Cinza",
       "price": "400.000",
       "year": "2017",
@@ -132,6 +145,7 @@
     {
       "car": "Citroen",
       "palavra-chave": "citroen",
+      "description": "Na verdade não procurava Citroen na internet quando o nome deste carro apareceu como coisa que tinha que ser colocada neste Site, como é um site de Carros, todo que possa ter rodas para se-transportar, pode ser considerado um veiculo de transporte, e como é considerado um veiculo, é chamado ao final de carro. Não importa se é feio ou bonito, semppre que funcione ou ainda assim, não faça nada, pode ser chamado de carro porque tem rodas, e se tem rodas é chamado de carro. Qualquer um que diga o contrario pode se considerar errado.",
       "color": "vermelho",
       "price": "538.000",
       "year": "1919",
@@ -142,6 +156,7 @@
     {
       "car": "Citroen",
       "palavra-chave": "citroen",
+      "description": "Além de tudo isso, o C3 Origine está com preço promocional. O seu preço de tabela é de R$ 47.490, mas o grupo Notre Dame está vendendo o modelo por apenas R$ 41.790, com a possibilidade de financiamento com taxa 0,99% e em até 60 parcelas.",
       "color": "Branco",
       "price": "938.000",
       "year": "2021",
@@ -152,6 +167,7 @@
     {
       "car": "Caoa Cherry",
       "palavra-chave": "caoa",
+      "description": "Inspirado No Que Você Mais Gosta. Conheça a Nova Série Especial C4 Cactus X-Series. Design Provocante, Tecnologia de Ponta, Melhor Performance da Categoria. Motor 1.6.Lançamento CAOA Chery: Sedan Arrizo 6 PRO um Novo Nível de Sofisticação em cada Detalhe. Compre seu Arrizo 6 Pro com Condições Especiais de Lançamento. Solicite uma Proposta. Porta-malas de 570 Litros. Acabamento Premium. Câmeras de visão 360°.     ",
       "color": "branco",
       "price": "223.000",
       "year": "2019",
@@ -162,8 +178,9 @@
     {
       "car": "Lambourgini",
       "palavra-chave": "lambourgini",
+      "description": "A linfangioleiomiomatose (LAM) é uma doença rara, que foi descrita pela primeira vez na literatura médica em 1937, pelo Dr. Von Stossel. Lamborghini Official Website: find Lamborghini models, new releases, latest news, events, and the dealers across the world. Procurando por Lamborghini Novos e Usados? Na Webmotors você encontra mais de 42 anúncios de carros com as melhores ofertas do mercado. Acesse Agora!",
       "color": "azul",
-      "price": "20000000",
+      "price": "200000",
       "year": "2000",
       "km": "12",
       "image": "https://cdn.motor1.com/images/mgl/WpLQq/s1/lamborghini-sian-roadster.webp",
@@ -172,6 +189,7 @@
     {
       "car": "Renault Duster",
       "palavra-chave": "renault",
+      "description": "RENAULT DUSTER descubra a sua melhor temporada. confira as ofertas. UM CARRO ROBUSTO PRA CHEGAR IMPONDO RESPEITO. Conheça o Renault DUSTER e confira todos os modelos e características do carro e escolha o que melhor combina com você. Frete grátis no dia ✓ Compre Renault Duster parcelado sem juros! Saiba mais sobre nossas incríveis ofertas e promoções em milhões de produtos.",
       "color": "dourado",
       "price": "3000000",
       "year": "2018",
@@ -182,6 +200,7 @@
     {
       "car": "Rayo McQueen",
       "palavra-chave": "lambourgini",
+      "description": "Lightning McQueen é um personagem fictício e o personagem principal da franquia de filmes de animação gráfica Carros, da Disney/Pixar. Tudo começa com a final da Taça Pistão, a maior competição automobilística do país. Onde três carros disputam o cobiçado troféu, Relâmpago McQueen, um corredor novato; O Rei ou Strip Weathers , um respeitado veterano; e Chick Hicks, um grande trapaceiro, acabam empatando na liderança do campeonato. Uma nova corrida para desempate é marcada para uma semana depois, na Califórnia.",
       "color": "vermelho",
       "price": "-300.000",
       "year": "2002",
@@ -192,6 +211,7 @@
     {
       "car": "Fiat Mobi",
       "palavra-chave": "fiat",
+      "description": "Qual Fiat Mobi e completo? O Mobi Drive é a versão mais completa do modelo lançado em 2016. Só ela traz o motor 1.0 da linha Firefly (que estreou no Uno em 2015), enquanto as demais configurações saem de fábrica com o veterano Fire. O subcompacto da linha 2022 chega ao mercado nacional custando R$ 43.990 na configuração Easy e R$ 51.690 na configuração Like. O Mobi Trekking, modelo mais completo, tem o preço sugerido de R$ 55.490.",
       "color": "Vermelho e preto",
       "price": "34.000",
       "year": "2021",
@@ -202,6 +222,7 @@
     {
       "car": "Nissan Kicks",
       "palavra-chave": "nissan",
+      "description": "Conheça Agora o Novo Nissan Kicks, Venha Conferir o Modelo no Site. Ganhe Ainda Mais Tranquilidade na Compra do Novo Nissan Kicks. Condições Exclusivas com IPVA Grátis. Ganhe as 4 Primeiras Revisões! Oferta Imperdível Para Você Sair de Nissan Kicks 2022. Acesse o Nosso Site e Aproveite! Modelos: Versa, Sentra, Frontier, Versa V-Drive, Kicks.",
       "color": "laranja",
       "price": "67.000",
       "year": "2021",
@@ -212,6 +233,7 @@
     {
       "car": "Nissan Frontier",
       "palavra-chave": "nissan",
+      "description": "DNA Japonês, Tecnologia, Força e Robustez. Conheça a Nova Nissan Frontier 2021! Suspenção Traseira Multilink , Economia e Conforto em suas Viagens. Controle de Rampa. Veja as premiações que a Nissan Frontier recebeu PREMIAÇÕES. Escolha sua Nissan Frontier. Nissan Frontier S MT. S MT 4x4. Nissan Frontier, a verdadeira força de uma Picape. ... VERSÕES. Nissan Frontier S MT. S MT 4x4. Preço Inicial, exceto para o Estado de São Paulo*. R$207.490.",
       "color": "branco",
       "price": "45.000",
       "year": "2010",
@@ -222,6 +244,7 @@
     {
       "car": "Caoa Chery Tiggo 5x",
       "palavra-chave": "caoa",
+      "description": "Procurando por Fiat Cronos Novos e Usados? Na Webmotors você encontra mais de 1109 anúncios de carros com as melhores ofertas do mercado. Acesse Agora! ",
       "color": "azul",
       "price": "2344456",
       "year": "2019",
@@ -232,6 +255,7 @@
     {
       "car": "Fiat Cronos",
       "palavra-chave": "fiat",
+      "description": "Procurando por Fiat Cronos Novos e Usados? Na Webmotors você encontra mais de 1109 anúncios de carros com as melhores ofertas do mercado. Acesse Agora! O Fiat Cronos, o sedã do Argo, tem proposta de ser um bom compacto para família, mas com um toque jovial e esportivo. Veja seus detalhes! Preço sugerido: A partir de R$ 72.291, Com motorização 1.3 e 1.8, ambas flex, o consumo de combustível do Fiat Cronos chama atenção positivamente. O modelo 1.3 é capaz de fazer 12,5 km/l na cidade e 14,7 km/l na estrada.",
       "color": "vermelho oscuro",
       "price": "340.000",
       "year": "2019",
@@ -242,6 +266,7 @@
     {
       "car": "Nissan Versa",
       "palavra-chave": "nissan",
+      "description": "Conheça Agora o Novo Nissan Kicks, Venha Conferir o Modelo no Site. Ganhe Ainda Mais Tranquilidade na Compra do Novo Nissan Kicks. Opções: Novo Nissan VERSA, Novo Nissan KICKS, Nova Nissan FRONTIER. Consulte a concessionária de sua preferência para mais informações. NOVO NISSAN VERSA , UM SEDAN COM O MELHOR DA TECNOLOGIA. Procurando por Nissan Versa Novos e Usados? Na Webmotors você encontra mais de 1585 anúncios de carros com as melhores ofertas do mercado. Acesse Agora!",
       "color": "2013",
       "price": "111111",
       "year": "2013",
@@ -252,6 +277,7 @@
     {
       "car": "Toyota ",
       "palavra-chave": "toyota",
+      "description": "Toyota - Yaris, Corolla, Corolla Cross, Hilux, RAV4, SW4, Camry e Prius. O Ciclo Toyota é um financiamento exclusivo, no qual você troca o seu usado de qualquer marca por um Toyota, com uma avaliação transparente e na hora. Na Toyolex você tem as melhores ofertas para todos os modelos da linha Toyota. Informações sobre veículos e serviços e atendimento online. Toyolex é a maior rede de concessionárias Toyota no Norte/Nordeste. Aqui você encontra o melhor atendimento, condições especiais de pagamento, e um serviço de pós vendas executado com extrema qualidade.",
       "color": "toyota",
       "price": "24555",
       "year": "2016",
@@ -264,12 +290,16 @@
     {
       "id": 1,
       "name": "Manutenção da embreagem",
+      "palavra-chave": "",
+      "description": "Esse conjunto de itens sofre maior desgaste por ser acionado com frequência, isso acontece geralmente quando se tem uma grande rodagem, principalmente em perímetro urbano, onde o trânsito é mais lento e exige mais do sistema de embreagem. A troca da embreagem em casos de desgaste é importante para garantir o funcionamento correto do câmbio e para que o condutor trafegue sem problemas.",
       "price": "20.000",
       "quota": "6",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmeynztdyOU0zklgHq2n8mZgXzGxeNgc9JpvnJ3wQQzeFWgCOT81ApNzcbXvgNc_U4qtQ&usqp=CAU"
     },
     {
       "name": "Troca de filtros.",
+      "palavra-chave": "",
+      "description": "Além do filtro de óleo, o veículo possui filtro de ar, filtro de combustível e todos tem a função de eliminar impurezas indiferente de onde aplicado. Para melhorar o desempenho do veículo, sua troca é indispensável e varia de acordo com o tráfego do automóvel. Por isso, é imprescindível prestar esse serviço em sua oficina mecânica. É rápido, com baixo custo e gera grande lucratividade. Principalmente, se você trabalha com um estoque e consegue adquirir estes produtos em épocas de promoção.",
       "price": "65.000",
       "quota": "12",
       "image": "https://pemavel.com.br/wp-content/uploads/2018/12/filtros-do-carro.jpg",
@@ -277,6 +307,8 @@
     },
     {
       "name": " Troca de lâmpadas.",
+      "palavra-chave": "troca",
+      "description": "A iluminação do veículo é essencial para manter a segurança principalmente quando se roda a noite. O farol desregulado e lâmpadas queimadas podem gerar multa quando não estão de acordo com o padrão exigido. Logo, são itens a serem revisados frequentemente e em alguns casos até mesmo proprietário do carro pode efetuar a troca.",
       "price": "60.000",
       "quota": "12",
       "image": "https://fotos.jornaldocarro.estadao.com.br/jornal-do-carro/imagens/noticia/especial-lampadas-4.jpg",
@@ -284,6 +316,8 @@
     },
     {
       "name": "Baila tu cuerpo alegria macarena ",
+      "palavra-chave": "",
+      "description": "Para melhorar o desempenho do veículo, sua troca é indispensável e varia de acordo com o tráfego do automóvel. Por isso, é imprescindível prestar esse serviço em sua oficina mecânica. É rápido, com baixo custo e gera grande lucratividade. Principalmente, se você trabalha com um estoque e consegue adquirir estes produtos em épocas de promoção.",
       "price": "23232234",
       "quota": "2222",
       "image": "https://assets.pokemon.com/assets//cms2-pt-br/img/video-games/_tiles/pokemon-unite/launch/mobile/pokemon-unite-169.jpg",
@@ -291,24 +325,175 @@
     },
     {
       "name": "Entra a la casa o te jodo ",
+      "palavra-chave": "",
+      "description": "",
       "price": "23232323",
       "quota": "4600",
       "image": "https://static8.depositphotos.com/1444991/935/i/950/depositphotos_9351800-stock-photo-mother-scolding-her-son.jpg",
       "id": 8
     },
     {
-      "name": "Quién coño eres tu?",
+      "name": "Troca de óleo do motor",
+      "palavra-chave": "",
+      "description": "A troca de óleo do motor é um dos serviços mais frequentes dentro da oficina mecânica e, mesmo sendo um procedimento simples, é importantíssimo para manter o bom funcionamento do veículo. Além do lubrificante é realizada a troca do filtro de óleo, portanto são itens e um serviço que não podem faltar de jeito nenhum em sua oficina mecânica.",
       "price": "122333",
       "quota": "20",
-      "image": "https://social.excite.es/var/excite/storage/images/excite-espana/vivir/vida-estilo/7-preguntas-para-descubrir-quien-eres-en-realidad/970920-1-esl-ES/7-preguntas-para-descubrir-quien-eres-en-realidad.jpg",
+      "image": "https://www.saolourencopneus.com.br/imagens/paginas/troca_oleo_01.webp",
       "id": 9
     },
     {
       "name": "Hijo de la gran puta ",
+      "palavra-chave": "",
+      "description": "",
       "price": "1222",
       "quota": "300",
       "image": "https://pbs.twimg.com/media/DgUgLQAW0AUauoi.jpg",
       "id": 10
+    },
+    {
+      "name": "Alinhamento e Balanceamento",
+      "palavra-chave": "alinhamento",
+      "description": "O alinhamento e balanceamento tendem a ser procedimentos periódicos, pois as estradas não apresentam boas condições de tráfego e assim vão desalinhando e causando desgastes nos componentes da suspensão. Realizando também a troca de pneus ou rodízio dos mesmos, o alinhamento e balanceamento são necessários para manter a dirigibilidade e evitar desgastes irregulares dos pneus.",
+      "price": "232323",
+      "quota": "23",
+      "image": "https://jwpcursosautomotivos.com.br/wp-content/uploads/2021/01/curso4-capa.jpg",
+      "id": 11
+    },
+    {
+      "name": "Revisão no Sistema de Arrefecimento",
+      "palavra-chave": "revisão",
+      "description": "Com certeza quando o cliente chega à oficina para realizar a manutenção preventiva, um dos principais itens a serem revisados são os do sistema de arrefecimento. Por se tratar de componentes que atuam na refrigeração do motor, exigem grande cuidado para não acarretar em prejuízos.",
+      "price": "40000",
+      "quota": "23",
+      "image": "https://blog.takao.com.br/wp-content/uploads/2019/06/295678-4-dicas-de-manutencao-do-sistema-de-arrefecimento-que-voce-deve-saber.jpg",
+      "id": 12
+    },
+    {
+      "name": "Troca de óleo do câmbio automático",
+      "palavra-chave": "",
+      "description": "O óleo da caixa de câmbio manual não se troca mais, os modelos atuais possuem um lubrificante que dura por toda vida útil do sistema. Nestes veículos só é necessário a troca se houver algum vazamento ou reparo na caixa. Já nos carros com câmbio automático vai depender das especificações do fabricante, mas geralmente a troca é indicada com 60 mil ou 80 mil quilômetros.",
+      "price": "122000",
+      "quota": "21",
+      "image": "https://revistacarro.com.br/wp-content/uploads/2019/12/c%C3%A2mbio-AT-VW-Polo.jpg",
+      "id": 13
+    },
+    {
+      "name": "Produtos de limpeza",
+      "palavra-chave": "",
+      "description": "Produtos de limpeza: limpa-vidros, cera polidora, limpador de ar-condicionado, limpa seco e panos para lavar. Essa é uma pergunta difícil de ser respondida com números exatos. Tudo vai depender de diversos fatores como: cidade, bairro, preço praticado pela concorrência, tamanho da equipe, entre outros.",
+      "price": "120",
+      "quota": "12",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_780112-MLB25980669182_092017-O.jpg",
+      "id": 14
+    },
+    {
+      "name": "Geometria e balanceamento",
+      "palavra-chave": "",
+      "description": "",
+      "price": "120333",
+      "quota": "12",
+      "image": "http://www.centralautocenterbn.com.br/webfiles/imagens/20191023_5db0f208ad32f.jpg",
+      "id": 15
+    },
+    {
+      "name": "MECÂNICO ESPECIALIZADO EM CARROS DE LUXO.",
+      "price": "110333",
+      "quota": "13",
+      "image": "https://conteudo.imguol.com.br/c/entretenimento/8d/2017/05/17/oficina-porsche-stuttgart-1495076025083_v2_450x253.jpg",
+      "id": 16
+    },
+    {
+      "name": "FUNILEIRO.",
+      "price": "110333",
+      "quota": "13",
+      "image": "https://viacarreira.com/wp-content/uploads/2020/01/funileiro-automotivo-o-que-faz-formacao-e-mercado-.jpeg",
+      "id": 17
+    },
+    {
+      "name": "IMPORTADOR DE PEÇAS E ACESSÓRIOS.",
+      "price": "110333",
+      "quota": "13",
+      "image": "https://www.dinpar.com.br/images/distribuidora-de-auto-pecas-e-acessorios-02.jpg",
+      "id": 18
+    },
+    {
+      "name": "IMPORTADOR DE PEÇAS E ACESSÓRIOS.",
+      "price": "110333",
+      "quota": "13",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_963903-MLB30045505758_042019-O.jpg",
+      "id": 19
+    },
+    {
+      "name": "PREPARADOR DE MODELOS DE COMPETIÇÃO.",
+      "price": "110333",
+      "quota": "13",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_963903-MLB30045505758_042019-O.jpg",
+      "id": 20
+    },
+    {
+      "name": "CONSULTOR AUTOMOTIVO.",
+      "price": "14333",
+      "quota": "13",
+      "image": "http://bomnegocioaqui.com.br/images/blog/9-coisas-que-um-vendedor-de-sucesso-faz.png",
+      "id": 21
+    },
+    {
+      "name": " MECÂNICO DE HÍBRIDOS E ELÉTRICOS.",
+      "price": "13343",
+      "quota": "23",
+      "image": "https://omecanico.com.br/wp-content/uploads/2019/04/hibridos-e-eletricos-1.jpg",
+      "id": 22
+    },
+    {
+      "name": "ESPECIALISTA EM ELETRÔNICA EMBARCADA",
+      "price": "13343",
+      "quota": "23",
+      "image": "https://mecanica.injemotors.com.br/oficina/imagens/oficina-para-oficina-especializada-em-eletronica-embarcada.png",
+      "id": 23
+    },
+    {
+      "name": "Troca de Pneus",
+      "price": "2000",
+      "quota": "23",
+      "image": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2020/11/09075232/trocapneu.jpg",
+      "id": 24
+    },
+    {
+      "name": "Revisão no Sistema de Arrefecimento",
+      "palavra-chave": "revisão",
+      "description": "Com certeza quando o cliente chega à oficina para realizar a manutenção preventiva, um dos principais itens a serem revisados são os do sistema de arrefecimento. Por se tratar de componentes que atuam na refrigeração do motor, exigem grande cuidado para não acarretar em prejuízos.",
+      "price": "40000",
+      "quota": "23",
+      "image": "https://blog.takao.com.br/wp-content/uploads/2019/06/295678-4-dicas-de-manutencao-do-sistema-de-arrefecimento-que-voce-deve-saber.jpg",
+      "id": 12
+    },
+    {
+      "name": "Te levo para onde você quiser",
+      "price": "20000",
+      "quota": "12",
+      "image": "http://s2.glbimg.com/HOXtV8uUUIa4IxEvgnenpyWjoOo=/s.glbimg.com/jo/g1/f/original/2016/09/14/ezgif.com-resize_17.gif",
+      "id": 25
+    },
+    {
+      "name": "Registro automotivo",
+      "price": "300",
+      "quota": "23",
+      "image": "https://mobilidade.estadao.com.br/wp-content/uploads/2020/08/moObie-2020-2.jpg",
+      "id": 26
+    },
+    {
+      "name": "Recuperação do carro roubado",
+      "price": "233",
+      "quota": "55",
+      "image": "https://blog.usadosbr.com/wp-content/uploads/2016/11/carro-roubado-confira-4-estrategias-para-recuperar-o-veiculo.jpeg",
+      "id": 27
+    },
+    {
+      "name": "Sem esperança",
+      "price": "0",
+      "quota": "0",
+      "image": "https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/11pzkk90zbmlh.jpg",
+      "id": 28
     }
   ],
   "users": [
