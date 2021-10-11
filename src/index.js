@@ -7,6 +7,7 @@ import Login from './Components/login';
 import Admin from './Components/admin';
 import Footer from './Components/footer';
 import Cars1 from './Components/Pages/cars1';
+import Services1 from '../src/Components/Pages/services1'
 import { Special } from './Components/Pages/special';
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import './index.css';
@@ -26,7 +27,7 @@ const routes = () =>  (
     <Header />
   </Route>
   
-  <Route path="/services">
+  <Route path="/service">
      
       <div className='teste'> <Services /></div>
   </Route>
@@ -45,9 +46,10 @@ const routes = () =>  (
           </div>
       </Route>
    
-    
+      <Route path="/services/:id" component={Services1} />
 
        <Route path="/cars/:id" component={Cars1} > <Cars1 /> </Route > 
+     
            <Route path ="/special"> <Special /> </Route>
   </Switch>
   <Footer />

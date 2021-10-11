@@ -21,6 +21,11 @@ export const getCarsById = async(id) => {
     return await axios.get(url)
 }
 
+export const getServicesById = async(id) => {
+    const url = `${baseUrl}/services/${id}`
+    return await axios.get(url)
+}
+
 //Para ser colocado dentro da búsqueda de serviços.
 export const getServices = async(select) => {
     const url = `${baseUrl}/services?_page=${select + 1}&_limit=8`

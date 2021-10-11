@@ -30,7 +30,7 @@ function Navbar() {
 
             <ul className="nav-menu-largeScreen">
             <Link to="/"> <li>Home</li></Link>
-            <Link to="/services"> <li>Services</li>   </Link>
+            <Link to="/service"> <li>Services</li>   </Link>
             <Link to="/products"> <li>Products</li>   </Link>
             <Link to="/sign-up" > <li className="nav-link-signUp"><i className="far fa-user-circle"></i>Sign-Up</li> </Link>
             <Link to="/admin-mode"><li className="setup"><i className="fas fa-cog"></i></li></Link>

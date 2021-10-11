@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import ReactPaginate from 'react-paginate';
-
 import './products.css'
 import { getCars, getCarsByName } from '../api/axios' 
 

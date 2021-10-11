@@ -115,6 +115,18 @@
     background: #2968c8;
 }
 
+.img-loading {
+    margin: 0 auto ;
+    width: 300px;
+    display: flex;
+}
+
+.img-error {
+    margin: 10px auto ;
+    width: 300px;
+    display:flex;
+
+}
 
 
 @media (max-width: 700px) {

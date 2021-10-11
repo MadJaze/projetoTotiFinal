@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 
- const UseFetch = (url) => {
+ const UseFetch2 = (url) => {
     const [ data, setData ] = useState(null);
     const [ isPending, setIsPending ] = useState(true);
     const [ error, setError ] = useState(null);
@@ -49,4 +49,4 @@ return () => abortCont.abort();
 
 }
 
-export default UseFetch;
+export default UseFetch2;

@@ -9,7 +9,8 @@ export default function AdminCars() {
 const [lista, setLista] = useState()
 
  const [car, setCar] = useState()
- const [color, setColor] = useState()
+ const [palavraChave, setPalavraChave] = useState()
+ const [description, setDescription] = useState()
  const [price, setPrice] = useState()
  const [year, setYear] = useState()
  const [km, setKm] = useState()
@@ -25,7 +26,7 @@ const handlePageClick = async(data) => {
 
 const handleSubmit = async(event) => {
     event.preventDefault()
-    const data = { car: car, color: color, price: price, year: year, km: km, image: image }
+    const data = { car: car, palavraChave: palavraChave, description: description, price: price, year: year, km: km, image: image }
     const result = await getCars()
     setLista(result)
     inputCar(data)
@@ -50,9 +51,10 @@ return (
             <label> Enter your name Car:</label>
             <input type="text" onChange={(event) => setCar(event.target.value)}/>
             
-            <label> Enter your color Car: </label>
-            <input type="text" onChange={(event) => setColor(event.target.value)}/>
-           
+            <label> Enter your description Car: </label>
+            <input type="text" onChange={(event) => setDescription(event.target.value)}/>
+           <label> Enter "Key word" for search: </label>
+           <input type="text" onChange={(event) => setPalavraChave(event.target.value)} />
             <label> Enter your price Car:   </label>
             <input type="number" onChange={(event) => setPrice(event.target.value)}/>
             <label> Enter your Year Car:   </label>

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import './products.css'
 import ReactPaginate from 'react-paginate'
-import { getServices, getServicesByName } from "../api/axios"
+import { getServices, getServicesByName, getServicesById } from "../api/axios"
 
 
 function Services() {
@@ -35,6 +36,7 @@ const handlePageClick = async(data) => {
 }
 
 
+
 return (
 
     <div>
@@ -45,8 +47,8 @@ return (
         </div>
         {lista && (lista.data?.map(element => {
         return (
-            <div className="container-principal">
-                <div className="container-cards">
+            <div className="container-principal"><Link to= {`/services/${element.id}`} state ={{id: element.id}} >
+               <div className="container-cards">
                     <img src={element.image} alt="serviço"/>
                     <ul className="cards">
                     <li className="car">{element.name}</li>
@@ -54,6 +56,7 @@ return (
                     <li className="year">{element.quota}x Quotes to pay</li>
                     </ul>
                 </div>
+                 </Link>
             </div>
         )
     }))}

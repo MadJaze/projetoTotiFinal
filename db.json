@@ -397,6 +397,8 @@
     },
     {
       "name": "MECÂNICO ESPECIALIZADO EM CARROS DE LUXO.",
+      "palavra-chave": "",
+      "description": "",
       "price": "110333",
       "quota": "13",
       "image": "https://conteudo.imguol.com.br/c/entretenimento/8d/2017/05/17/oficina-porsche-stuttgart-1495076025083_v2_450x253.jpg",
@@ -404,6 +406,8 @@
     },
     {
       "name": "FUNILEIRO.",
+      "palavra-chave": "",
+      "description": "",
       "price": "110333",
       "quota": "13",
       "image": "https://viacarreira.com/wp-content/uploads/2020/01/funileiro-automotivo-o-que-faz-formacao-e-mercado-.jpeg",
@@ -411,6 +415,8 @@
     },
     {
       "name": "IMPORTADOR DE PEÇAS E ACESSÓRIOS.",
+      "palavra-chave": "",
+      "description": "",
       "price": "110333",
       "quota": "13",
       "image": "https://www.dinpar.com.br/images/distribuidora-de-auto-pecas-e-acessorios-02.jpg",
@@ -418,6 +424,8 @@
     },
     {
       "name": "IMPORTADOR DE PEÇAS E ACESSÓRIOS.",
+      "palavra-chave": "",
+      "description": "",
       "price": "110333",
       "quota": "13",
       "image": "https://http2.mlstatic.com/D_NQ_NP_963903-MLB30045505758_042019-O.jpg",
@@ -425,6 +433,8 @@
     },
     {
       "name": "PREPARADOR DE MODELOS DE COMPETIÇÃO.",
+      "palavra-chave": "",
+      "description": "",
       "price": "110333",
       "quota": "13",
       "image": "https://http2.mlstatic.com/D_NQ_NP_963903-MLB30045505758_042019-O.jpg",
@@ -432,6 +442,8 @@
     },
     {
       "name": "CONSULTOR AUTOMOTIVO.",
+      "palavra-chave": "",
+      "description": "",
       "price": "14333",
       "quota": "13",
       "image": "http://bomnegocioaqui.com.br/images/blog/9-coisas-que-um-vendedor-de-sucesso-faz.png",
@@ -439,6 +451,8 @@
     },
     {
       "name": " MECÂNICO DE HÍBRIDOS E ELÉTRICOS.",
+      "palavra-chave": "",
+      "description": "",
       "price": "13343",
       "quota": "23",
       "image": "https://omecanico.com.br/wp-content/uploads/2019/04/hibridos-e-eletricos-1.jpg",
@@ -446,6 +460,8 @@
     },
     {
       "name": "ESPECIALISTA EM ELETRÔNICA EMBARCADA",
+      "palavra-chave": "",
+      "description": "",
       "price": "13343",
       "quota": "23",
       "image": "https://mecanica.injemotors.com.br/oficina/imagens/oficina-para-oficina-especializada-em-eletronica-embarcada.png",
@@ -453,6 +469,8 @@
     },
     {
       "name": "Troca de Pneus",
+      "palavra-chave": "",
+      "description": "",
       "price": "2000",
       "quota": "23",
       "image": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2020/11/09075232/trocapneu.jpg",
@@ -469,6 +487,8 @@
     },
     {
       "name": "Te levo para onde você quiser",
+      "palavra-chave": "",
+      "description": "",
       "price": "20000",
       "quota": "12",
       "image": "http://s2.glbimg.com/HOXtV8uUUIa4IxEvgnenpyWjoOo=/s.glbimg.com/jo/g1/f/original/2016/09/14/ezgif.com-resize_17.gif",
@@ -476,6 +496,8 @@
     },
     {
       "name": "Registro automotivo",
+      "palavra-chave": "",
+      "description": "",
       "price": "300",
       "quota": "23",
       "image": "https://mobilidade.estadao.com.br/wp-content/uploads/2020/08/moObie-2020-2.jpg",
@@ -483,6 +505,8 @@
     },
     {
       "name": "Recuperação do carro roubado",
+      "palavra-chave": "",
+      "description": "",
       "price": "233",
       "quota": "55",
       "image": "https://blog.usadosbr.com/wp-content/uploads/2016/11/carro-roubado-confira-4-estrategias-para-recuperar-o-veiculo.jpeg",
@@ -490,6 +514,8 @@
     },
     {
       "name": "Sem esperança",
+      "palavra-chave": "",
+      "description": "",
       "price": "0",
       "quota": "0",
       "image": "https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/11pzkk90zbmlh.jpg",
