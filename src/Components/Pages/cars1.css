@@ -33,16 +33,9 @@
 .conteudo-by-id img{
     width: 500px;
     border-radius: 20px;
-    transition: 300ms;
-}
-
-.conteudo-by-id img:hover{
-    width: 400px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 4px 1px black;
-   
     
 }
+
 
 /* PAyment method container and any element inside it */
 .payment-method {
@@ -131,8 +124,29 @@
 
 @media (max-width: 700px) {
 
+    .conteudo-by-id {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
     .conteudo-by-id p {
         width: 100%;
 
 }
+    
+
+}
+
+@media (max-width: 400px) {
+    .conteudo-by-id img {
+        width: 310px;
+    }
+
+    .title-by-id span {
+        font-size: 20px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
 }
