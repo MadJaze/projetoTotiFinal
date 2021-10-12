@@ -5,7 +5,8 @@ import Services from './Components/Pages/services';
 import Products from './Components/Pages/products';
 import Login from './Components/login';
 import Admin from './Components/admin';
-import Footer from './Components/footer';
+
+import TestFooter from './Components/testFooter';
 import Cars1 from './Components/Pages/cars1';
 import Services1 from '../src/Components/Pages/services1'
 import { Special } from './Components/Pages/special';
@@ -52,8 +53,8 @@ const routes = () =>  (
      
            <Route path ="/special"> <Special /> </Route>
   </Switch>
-  <Footer />
- 
+
+ <TestFooter />
   </ Fragment>
 )
 

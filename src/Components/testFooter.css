@@ -1,0 +1,193 @@
+.footer-container {
+    border-bottom: 10px solid black;
+    margin : 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d9d9d9;
+
+}
+
+footer {
+         width: 100%;
+         background: #111;
+
+       
+    
+}
+
+.footer-container {
+    display: flex;
+  
+
+}
+
+.footer-container .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+
+}
+
+.box h2 {
+    font-size:  18px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content:after {
+        position: absolute;
+        content: '';
+        width: 15%;
+        height: 2px;
+        background: #f12020;
+        top: -10%;
+    }
+
+.box .content:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+    top: -10px;
+
+
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social i {
+   padding: 10px 2px;
+   margin-right: 20px;
+   width: 40px;
+   height: 40px; 
+   background: #1a1a1a;
+   font-size: 20px;
+   border-radius: 5px;
+   text-align: center;
+   color: #fff;
+   transition: 0.3s;
+}
+
+.left .content .social i:hover {
+    
+    background: #f12020;
+
+
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+
+
+.center .content .fas {
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 23px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+
+}
+
+.center .content .fas:hover { 
+    background: #f12020;
+}
+
+.center .content .text {
+    font-size: 17px;
+    margin-left: 10px;
+    
+}
+
+.right form input, .right form textarea {
+
+    width: 100%;
+    font-size: 17px;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+    color: #818181;
+}
+
+.right form input {
+    height: 35px;
+  
+}  
+
+.right form input:focus, .right form textarea:focus {
+
+    outline-color: #f12020;
+}
+
+.right form .text {
+    font-size: 17px;
+    margin-bottom: 2px;
+
+}
+
+.right form .button {
+    margin-top: 10px;
+}
+
+.right form  .button .btn {
+    height: 40px;
+    width: 100%;
+    background-color: #f12020;
+    color: white;
+    cursor: pointer;
+    transition: 300ms; 
+}
+
+
+.right form  .button .btn:hover {
+
+    background: #000;
+ 
+
+
+}
+
+.bottom .center .far{
+    padding: 10px;
+    font-size: 18px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    color: #656565;
+    cursor: help;
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+        .footer-container{
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+}
+
+
+
+
+
+
+
+
