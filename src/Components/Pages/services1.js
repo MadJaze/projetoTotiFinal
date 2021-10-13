@@ -24,7 +24,7 @@ return (
         
         <div className="conteudo-by-id">
         <p>{blog.description}</p>
-        <img src={blog.image}/>
+        <img src={blog.image} alt="serviço-imagem"/>
         <div className="payment-method">
         <p className="frete-gratis"><i className="fas fa-truck"></i> Frete Grátis</p>
         <p className="prazos-de-entrega">Saiba os prazos de entrega e as formas de envío</p>

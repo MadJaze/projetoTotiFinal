@@ -563,6 +563,15 @@
       "quota": "0",
       "image": "https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/11pzkk90zbmlh.jpg",
       "id": 28
+    },
+    {
+      "name": "Serviço especializado",
+      "description": "Aqui Nós colocamos algo para describir o serviço",
+      "palavraChave": "serviço",
+      "price": "2000",
+      "quota": "30",
+      "image": "https://agirbrasil.com.br/wp-content/uploads/sites/33/2020/06/earth-11015_1920.jpg",
+      "id": 29
     }
   ],
   "users": [
@@ -615,6 +624,11 @@
       "name": "fabricio ",
       "password": "1234",
       "id": 10
+    },
+    {
+      "name": "professorX",
+      "password": "professory",
+      "id": 11
     }
   ]
 }

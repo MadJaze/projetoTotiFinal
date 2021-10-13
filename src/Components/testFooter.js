@@ -11,7 +11,7 @@ export default function TestFooter() {
 
                     <h2>About Us</h2>
                     <div className="content">
-                    <p>This proyect was developed by: Jasiel Padrón, Paulo Soyepia Alberto and Andreina Velásquez Jiménez.</p>
+                    <p>This proyect was developed by: Jasiel Padrón, Paulo Soyepia Alberto, Andreina Velásquez Jiménez, Tayron Dstefano and Israel tawaba.</p>
                    
 
                     <div className="social"> 

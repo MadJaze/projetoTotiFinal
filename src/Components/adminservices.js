@@ -4,6 +4,8 @@ import { inputServices, deleteService, getServices } from "./api/axios"
 
 function AdminServices() {
     const [name, setName] = useState("")
+    const [description, setDescription] = useState("")
+    const [palavraChave, setPalavraChave] = useState("")
     const [price, setPrice] = useState("")
     const [quota, setQuota] = useState("")
     const [image, setImage] = useState("")
@@ -11,7 +13,7 @@ function AdminServices() {
 
     const handleSubmit = async (event) => {
         event.preventDefault()
-        const data = {name: name, price: price, quota: quota, image: image}
+        const data = {name: name, description: description, palavraChave: palavraChave, price: price, quota: quota, image: image}
         const result = await getServices()
         setLista(result)
         inputServices(data)
@@ -51,9 +53,14 @@ function AdminServices() {
             <label> Enter your service:</label>
             <input type="text" required onChange={(event) => setName(event.target.value)}/>
             
+            <label> Describe the current service: </label>
+            <textarea rows="2" cols="20" required onChange={(event) => setDescription(event.target.value)} /> 
+           
+            <label> Key-Word for service input:  </label>
+            <input type="text" required onChange={(event) => setPalavraChave(event.target.value)}/>
+
             <label> How much this service cost? </label>
             <input type="text" required onChange={(event) => setPrice(event.target.value)}/>
-           
             <label> How many Quotes you pay this service?:   </label>
             <input type="number" required onChange={(event) => setQuota(event.target.value)}/>
             <label> Enter your Image Service:   </label>
