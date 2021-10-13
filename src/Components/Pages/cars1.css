@@ -141,12 +141,16 @@
 
 @media (max-width: 400px) {
     .conteudo-by-id img {
-        width: 310px;
+        width: 280px;
     }
 
     .title-by-id span {
         font-size: 20px;
         text-align: center;
         flex-wrap: wrap;
+    }
+
+    .prazos-de-entrega {
+        margin-left: 10px;
     }
 }

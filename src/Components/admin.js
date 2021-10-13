@@ -24,6 +24,10 @@ export default function Admin() {
                <Link to="/admin-services-input"> <button>Services</button></Link>
                 </div>
 
+                <div className="red-caution"> 
+                    Welcome to Admin-Mode: This mode can be accessed easily by anyone to add and delete database into this WebSite; CAUTION: if you click on any element (card selected), this element will be deleted forever.   
+                </div>
+
                 <Switch>
                     <Route path="/admin-cars-input">
                     <div className="teste-admin-cars"><AdminCars /></div>

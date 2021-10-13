@@ -27,3 +27,28 @@ h4 {
     
 }
 
+.red-caution {
+    background: red;
+    color: white;
+    margin: 0px auto;
+    margin-top: 50px;
+    line-height: 30px;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+@media (max-width: 400px) {
+
+    .red-caution {
+        background: red;
+        color: white;
+        margin: 0px auto;
+        margin-top: 50px;
+        line-height: 30px;
+        padding: 20px;
+        width: 90%;
+        border-radius: 8px;
+    }
+}
+

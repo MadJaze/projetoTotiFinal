@@ -72,3 +72,11 @@ export const userLogin = async (usuario) => {
     window.alert("Logged succesfully :)")
     return await axios.post(url, usuario)
 }
+
+// para o Admin/Mode editar as informações das cards. 
+
+export const updateCars = async (id, note) => {
+    const task = await getCars(id)
+    const res =  await axios.put (`${baseUrl}/updateCars/${id}`, {...task, note: note})
+    return res.data
+}

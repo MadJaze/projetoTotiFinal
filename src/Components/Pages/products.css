@@ -59,6 +59,7 @@
     width: 280px;
     padding-inline-start: 0;
     padding-bottom: 0px;
+    margin-bottom: 0;
 
    
 }
@@ -101,4 +102,69 @@
     margin-left: 15px;
     margin-top: 7px;
     color: rgba(0, 0, 255, 0.445);
+}
+
+.options-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 5px;
+    
+}
+
+.edit{ 
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    background: blue;
+    padding: 3px 4px 10px 6px;
+    border-radius: 8px;
+    transition: 300ms;
+    
+    
+}
+.edit:hover{ 
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    background: rgba(1, 1, 105, 0.897);
+  
+    
+    
+}
+.delete{ 
+   
+    height: 30px;
+    width: 30px;
+    padding: 3px 5px 10px 5px;
+    background: red;
+    border-radius: 8px;
+    transition: 300ms;
+}
+.delete:hover{ 
+   
+    height: 30px;
+    width: 30px;
+    padding: 3px 5px 10px 5px;
+    background: rgb(104, 1, 1);
+    border-radius: 8px;
+}
+.delete{ 
+   
+    height: 30px;
+    width: 30px;
+    padding: 3px 5px 10px 5px;
+    background: red;
+    border-radius: 8px;
+}
+
+.fa-edit{
+    color: white;
+    text-align: center;
+    line-height: 0px;
+}
+.fa-trash-alt{
+    color: white;
+    text-align: center;
 }

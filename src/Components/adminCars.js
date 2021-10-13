@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactPaginate from 'react-paginate';
+import { Link } from 'react-router-dom'
 import "./adminCars.css"
 import { inputCar, deletarCar, getCars } from "./api/axios";
 
@@ -38,9 +39,16 @@ const listar = async() => {
 }
 
 const deletar = async(id) => {
-    deletarCar(id)
+    let confirmDelete = window.confirm(`Are you sure about delete this element?`);
+    if(confirmDelete) {
+        deletarCar(id)
     const result= await getCars()
     setLista(result)
+    } else {
+        const result= await getCars()
+    setLista(result)
+    }
+    
 }
 
 
@@ -73,7 +81,7 @@ return (
       <div className="haciendo-milagros">
           {lista && lista.data?.map(element => {
               return (
-                <div key= {element.id} className="container-principal" onClick={() => deletar(element.id)}>
+                <div key= {element.id} className="container-principal" >
                     <div className="container-cards"> 
                     <img src={element.image} alt="modelo_carro"/>
                         <ul className="cards">
@@ -82,7 +90,10 @@ return (
                         <li className="price">R$ <span>{element.price}</span></li>
                         <li className="year">{element.year} - {element.km} km</li>
                         </ul>
-                    
+                        <ul className="options-list">
+                      <li className="edit"><i class="far fa-edit"></i></li>
+                        <li className="delete" onClick={() => deletar(element.id)}><i class="fas fa-trash-alt"></i></li>
+                    </ul>
                     </div>
                     
                 </div>       

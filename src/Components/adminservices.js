@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ReactPaginate from 'react-paginate'
 import { inputServices, deleteService, getServices } from "./api/axios"
 
 function AdminServices() {
@@ -16,11 +17,26 @@ function AdminServices() {
         inputServices(data)
     }
 
+    const handlePageClick = async (data) => {
+        let select = data.selected
+        console.log(select)
+        const result  = await getServices(select)
+        setLista(result)
+
+    }
+
    
     const deletar = async(id) => {
-        deleteService(id)
+        let confirmDelete = window.confirm(`Are you sure about delete this element?`)
+        if (confirmDelete) {
+            deleteService(id)
         const result = await getServices()
         setLista(result)
+        } else {
+            const result = await getServices()
+        setLista(result)
+        }
+        
     }
 
     const listar = async() => {
@@ -49,18 +65,22 @@ function AdminServices() {
         <div className="delete-form">
         <button className="btns" onClick={() => listar()}>Update Services</button>
         </div>
-        <div>
+        <div className="haciendo-milagros">
         
 
         {lista && (lista.data?.map(element => {
         return (
-            <div key={element.id} onClick={() => deletar(element.id)} className="container-principal">
+            <div key={element.id}  className="container-principal">
                 <div className="container-cards">
                     <img src={element.image} alt="serviço"/>
                     <ul className="cards">
                     <li className="car">{element.name}</li>
                     <li className="price">R$<span>{element.price}</span></li>
                     <li className="year">{element.quota}x Quotes to pay</li>
+                    </ul>
+                    <ul className="options-list">
+                        <li className="edit"><i class="far fa-edit"></i></li>
+                        <li className="delete" onClick={() => deletar(element.id)}><i class="fas fa-trash-alt"></i></li>
                     </ul>
                 </div>
             </div>
@@ -70,6 +90,18 @@ function AdminServices() {
 
     </div>
 
+    <ReactPaginate
+          previousLabel={'Previous'}
+          nextLabel={'Next'}
+          breakLabel={'...'}
+          breakClassName={'break-me'}
+          pageCount={4}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={5}
+          onPageChange={handlePageClick}
+          containerClassName={'pagination'}
+          activeClassName={'active'}
+        />
 
 
         </div>

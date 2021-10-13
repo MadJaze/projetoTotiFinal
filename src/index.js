@@ -5,7 +5,7 @@ import Services from './Components/Pages/services';
 import Products from './Components/Pages/products';
 import Login from './Components/login';
 import Admin from './Components/admin';
-
+//import AdminEditCars from './Components/adminEditCars';
 import TestFooter from './Components/testFooter';
 import Cars1 from './Components/Pages/cars1';
 import Services1 from '../src/Components/Pages/services1'
@@ -14,6 +14,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import './index.css';
 import Navbar from './Components/navbar';
 import reportWebVitals from './reportWebVitals';
+
 
 const routes = () =>  (
 
@@ -50,6 +51,8 @@ const routes = () =>  (
       <Route path="/services/:id" component={Services1} />
 
        <Route path="/cars/:id" component={Cars1} > <Cars1 /> </Route > 
+
+    {/*   <Route  path="/admineditcars/:id" component={AdminEditCars} > <AdminEditCars /> </Route > */}
      
            <Route path ="/special"> <Special /> </Route>
   </Switch>
