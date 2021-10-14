@@ -21,7 +21,7 @@ import reportWebVitals from './reportWebVitals';
 const routes = () =>  (
 
   <Fragment>
-    
+
    <Navbar />
    
   
@@ -32,6 +32,8 @@ const routes = () =>  (
     <Header />
   </Route>
   
+
+
   <Route path="/service">
      
       <div className='teste'> <Services /></div>
@@ -46,7 +48,8 @@ const routes = () =>  (
      </div>
   </Route>
 
-{/*<CssBaseline />*/}
+ 
+
 
  {/* <Route  exact path=""/> Adicionando User */}
 
@@ -65,6 +68,7 @@ const routes = () =>  (
     {/*   <Route  path="/admineditcars/:id" component={AdminEditCars} > <AdminEditCars /> </Route > */}
      
            <Route path ="/special"> <Special /> </Route>
+           <User/>
   </Switch>
 
  <TestFooter />

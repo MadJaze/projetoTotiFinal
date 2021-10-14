@@ -15,9 +15,11 @@ export default function TestFooter() {
                    
 
                     <div className="social"> 
+                    <Link to="/admin-mode"><i className="fas fa-cog setup"></i></Link>
                     <a href="https://github.com/"> <i className="fab fa-github-square "></i> </a>
                     <a href="https://www.instagram.com/"> <i className="fab fa-instagram"></i></a>
                     <a href="https://www.facebook.com/gaming/Madjaze"><i className="fab fa-facebook-square"></i></a>
+                  
                     </div>
                     </div>
                     </div> {/*LEFT BOX*/}

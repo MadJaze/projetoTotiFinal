@@ -37,18 +37,18 @@ function User() {
         id="menu-appbar"
         anchorEl={anchorEl}
         anchorOrigin={{
-          vertical: 'top',
+          vertical: 'bottom',
           horizontal: 'right',
         }}
         keepMounted
         transformOrigin={{
-          vertical: 'top',
-          horizontal: 'right',
+          vertical: 'bottom',
+          horizontal: 'left',
         }}
         open={open}
         onClose={handleClose}
       >
-        <MenuItem disabled>Jasiel</MenuItem>
+        <MenuItem disabled>J</MenuItem>
         <MenuItem onClick={handleLogout}>Logout</MenuItem>
       </Menu>
     </div>
