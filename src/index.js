@@ -5,6 +5,8 @@ import Services from './Components/Pages/services';
 import Products from './Components/Pages/products';
 import Login from './Components/login';
 import Admin from './Components/admin';
+import  CssBaseline  from '@material-ui/core/CssBaseline';
+import User from './Components/user';
 //import AdminEditCars from './Components/adminEditCars';
 import TestFooter from './Components/testFooter';
 import Cars1 from './Components/Pages/cars1';
@@ -19,6 +21,7 @@ import reportWebVitals from './reportWebVitals';
 const routes = () =>  (
 
   <Fragment>
+    
    <Navbar />
    
   
@@ -42,6 +45,13 @@ const routes = () =>  (
      <div className="teste4"> <Login />
      </div>
   </Route>
+
+{/*<CssBaseline />*/}
+
+ {/* <Route  exact path=""/> Adicionando User */}
+
+
+ 
       <Route path="/admin-mode">
           <div className="teste5"> 
               <Admin />
